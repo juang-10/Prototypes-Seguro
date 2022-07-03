@@ -26,6 +26,6 @@ UI.prototype.llenarOpciones = () => {
 // Instanciar UI
 const ui = new UI();
 
-document.addEventListner('DOMContentLoaded', () => {
+document.addEventListener('DOMContentLoaded', () => {
     ui.llenarOpciones() // Llena el select con los años
 })
