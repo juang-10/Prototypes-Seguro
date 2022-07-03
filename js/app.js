@@ -16,7 +16,7 @@ UI.prototype.llenarOpciones = () => {
     const selectYear  = document.querySelector('#year');
 
     for (let i = max ; i > min; i--) {
-        let option = docment.createElement('option');
+        let option = document.createElement('option');
         option.value = i;
         option.textContent = i;
         selectYear.appendChild(option);
